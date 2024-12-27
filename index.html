@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dental</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.js' integrity='sha512-luUnkeG+uabiT2pZdi5ME5uADvq+FpDs2fK5V0nVXrHCND9F077fKaE9W//oJvGnWSmwQmCau63A6s3um1NZmg==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
+</head>
+<body>
+    <div class="wrap">
+        <!-- Feedback Arsen -->
+        <div class="feedBack__modalWindow">
+            <h1 id="feedBack__modalText"></h1>
+        </div>
+
+        <div class="feedbackPage2">
+            <div class="feedback__popup" id="feedback__popup">
+                <label for="">Your rate our dental department</label>
+                <select id="feedback__selectionRate">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="feedback__inpName">Your nickname</label>
+                <input type="text" id="feedback__inpName">
+            
+                <label for="feedback__inpContent">Content for your respond</label>
+                <input type="text" id="feedback__inpContent">
+            
+                <span>
+                    <button id="feedback__btnAgree" >Submit</button> 
+                    <button id="feedback__btnCancel">Cancel</button>
+                </span>
+        </div>
+    </div>
+        <!-- Feedback END -->
+
+        <!-- Appointment Arsen -->
+         <div class="appointmentPage">
+            <h1>Make an appointment</h1>
+            <p>Dental or oral health is concered with your teeth, gums and mouth. <br> healthy mouth fre or infectiounis, injuries and other problems with</p>
+            
+            <div class="appointment__container">
+                <div class="appointment__formContainer">
+                    <h3>Appointment</h3>
+                    <span>
+                        <input type="text" id="appointment__name" placeholder="patient name">
+                        <input type="text" id="appointment__gender" placeholder="gender">
+                    </span>
+                    <span>
+                        <input type="text" id="appointment__phone" placeholder="phone number">
+                        <input type="text" id="appointment__email" placeholder="email">
+                    </span>
+                    <span>
+                        <input type="date" id="appointment__date" placeholder="date">
+                        <input type="text" id="appointment__departament" placeholder="departament">
+                    </span>
+                    <textarea name="" id="appointment__description" placeholder="more details"></textarea>
+                    
+                    <button id="appointment__formBtn">
+                        Send message
+                    </button>
+                </div>
+                <div class="appointment__imgContainer">
+
+                </div>
+            </div>
+         </div>
+        <!-- Appointment END -->
+
+
+        <!-- FeedBack Arsen -->
+         <div class="feedBackPage">
+            <div class="feedBack__container">
+                <h1>Rewiews from our patient.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquid ratione rem quisquam <br> temporibus ipsum. Cupiditate atque, delectus iste fuga officia blanditiis nobis optio soluta. Sit, mollitia illum? Et, dolores!</p>
+                <button id="feedBack__btnPopup">Give feedback</button>
+                
+                <div id="feedBack__responseContainer">
+                    
+                </div>
+            </div>
+
+            <div class="feedBack__container">
+                <div class="feedBack__newsLetter">
+                    <h1>Our newsletter</h1>
+                    <p>Dental or oral health is concered with your teeth, gums and mouth. <br> healthy mouth fre or infectiounis, injuries and other problems with</p>
+                    <input type="text">
+                    <button>subscribe</button>
+                </div>
+            </div>
+            <p class="copyright">Copyright 2020 All rites reserved - dental</p>
+         </div>
+        <!-- FeedBack END -->
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
