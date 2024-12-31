@@ -7,5 +7,5 @@ Technology: js, html, css, formspree.
 
 https://superlative-syrniki-8d70c9.netlify.app/
 
-![Image alt](https://github.com/africanecMorj/Dental/blob/main/Снимок%20экрана%20(186).png)
+![Image alt](https://i.postimg.cc/RFw41QxX/186.png )
 
